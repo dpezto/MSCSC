@@ -1,6 +1,6 @@
 """
 -------------------------------------------------------------------------------------
-   Autor: Dai López Jacinto
+   Autor: Dai López
 -------------------------------------------------------------------------------------
 """
 
@@ -379,7 +379,7 @@ def reduced_matrix(M, ψg, A, Ts, index):
                     ket_i[i, j, k] = binary_search(Ts, Tket[i, j, k])
                 else:
                     ket_i[i, j, k] = -1
-    # LLena matriz reducida
+    # Llena matriz reducida
     Mr = zeros([M, M])
     for i in range(M):
         for j in range(M):
