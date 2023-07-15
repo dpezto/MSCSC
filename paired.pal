@@ -1,0 +1,34 @@
+# line styles for ColorBrewer Paired
+# for use with qualitative/categorical data
+# provides 8 colors in 4 pairs
+# compatible with gnuplot >=4.2
+# author: Anna Schneider
+
+# line styles
+
+set linetype 1 lc rgb '#FB9A99' # light red
+set linetype 2 lc rgb '#E31A1C' # dark red
+set linetype 3 lc rgb '#FDBF6F' # light orange
+set linetype 4 lc rgb '#FF7F00' # dark orange
+set linetype 5 lc rgb '#B2DF8A' # light green
+set linetype 6 lc rgb '#33A02C' # dark green
+set linetype 7 lc rgb '#6ffcd2' # light aqua
+set linetype 8 lc rgb '#04dd9c' # dark aqua
+set linetype 9 lc rgb '#A6CEE3' # light blue
+set linetype 10 lc rgb '#1F78B4' # dark blue
+set linetype 11 lc rgb '#d36ffc' # light purple
+set linetype 12 lc rgb '#9104dd' # dark purple
+
+# palette
+set palette maxcolors 10
+set palette defined (\
+	0 '#FB9A99',\
+	1 '#E31A1C',\
+	2 '#FDBF6F',\
+	3 '#FF7F00',\
+	4 '#B2DF8A',\
+	5 '#33A02C',\
+	6 '#A6CEE3',\
+	7 '#1F78B4',\
+	8 '#D36FFC',\
+	9 '#9104DD')
