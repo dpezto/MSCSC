@@ -1,1 +1,2 @@
 # MSCSC
+Se usa el modelo de Bose Hubbard para ilustrar técnicas de diagonalización exacta mediante un código escrito en \textit{python} para sistemas con $N=M=$ $3,4,5,6,7$ y $8$ (partículas y sitios respectivamente). Utilizando condición de periodicidad se calcularon las fluctuaciones $\Delta(\hat{n})^2$, la fracción de condensado $f_c$, la energía cinética $E_\text{kin}$ y el potencial químico $\mu^\pm$,  y el gap de excitación correspondiente $\Delta\mu$. Como un extra se realizan representaciones gráficas del Hamiltoniano para sistemas de $N=M=6$ y $10$.
